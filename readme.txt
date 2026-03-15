@@ -76,8 +76,6 @@ POST /articles
 
 Requires JWT token.
 
-Header example:
-Authorization: Bearer YOUR_TOKEN
 
 
 
