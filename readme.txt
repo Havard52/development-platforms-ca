@@ -22,6 +22,7 @@ A service like Supabase can be easier to set up, but building your own API helps
 This project is a fake news plattform API built with Express.js and TypeScript  
 Users can register, log in, and submit news articles.  
 Articles can be viewed publicly i github.
+gitigni+ore is not ignoring, . env file. so teachers can view it. 
 
 The API uses MySQL for data storage and JWT authentication to protect article submission.
 
