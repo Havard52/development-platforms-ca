@@ -1,15 +1,28 @@
 # development-platforms-ca
 
-I chose Option 1 because I wanted to build a backend API and learn more about server and databases.
-I liked working in MySQL, baecause i found it to language to less comlpicatet then i first tought.
-I struggled alout with put, post, delete, after connecting to the server. I found it pretty hard to find the specific reason for why it did not work.
+Motivation
 
-I did not use any .gitin+gnore. So all files are visible ;)
+I chose Option 1 because I wanted to build a backend API and learn more about servers and databases.
+
+What I liked:
+Working with MySQL and learning SQL queries
+
+- Building routes in Express
+- Understanding how auth with JWT works
+
+What I found difficult:
+- Debugging POST, PUT, and DELETE requests
+- Finding the exact reason when something in the server did not work
+- Connecting all parts of the backend together
+
+One benefit of building a custom API is that you have full control over how the backend works.
+A service like Supabase can be easier to set up, but building your own API helps you understand backend development better.
 
 ## Overview
 This project is a fake news plattform API built with Express.js and TypeScript  
 Users can register, log in, and submit news articles.  
 Articles can be viewed publicly i github.
+. gitignore is not ignoring .env, spo teacher can see.
 
 The API uses MySQL for data storage and JWT authentication to protect article submission.
 
@@ -79,6 +92,28 @@ Requires JWT token.
 Header example:
 Authorization: Bearer YOUR_TOKEN
 
+Authorization: Bearer YOUR_TOKEN
+
+Body example:
+
+{
+  "title": "My first article",
+  "body": "This is the content of the article",
+  "category": "Technology"
+}
+Database Structure
+users
+id
+email
+password_hash
+created_at
+articles
+id
+title
+body
+category
+submitted_by
+created_at
 
 
 
